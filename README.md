@@ -1,3 +1,3 @@
 # Balce
 
-A 
+A chemical format parser and balancer in python.
