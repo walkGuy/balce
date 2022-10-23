@@ -35,8 +35,8 @@ H₂+ O₂ = H₂O
 
 ## The most powerful parser (may be)
 
-It can parse any currently like `(NH3)3[(PO)4·12MoO3·2NH3]5·3H2O^(4+)↑(gas)`
+- It can parse any currently like `(NH3)3[(PO)4·12MoO3·2NH3]5·3H2O^(4+)↑(gas)`
 
-
+- also any condition, ... something.
 
 ## The most powerful balancer (might be)
