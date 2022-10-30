@@ -31,7 +31,6 @@ print(fla)
 Output:
 
 ```
-H₂+ O₂ = H₂O
 2H₂+ O₂ = 2H₂O
 ```
 
