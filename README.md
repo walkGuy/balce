@@ -24,9 +24,8 @@ then you can enter your chemical formulas.
 ```
 import balce
 fla = balce.CEquation('H2 +O2 = H2O')
-bal_fla = fla.balance()
+fla.balance()
 print(fla)
-print(bal_fla)
 ```
 
 Output:
@@ -55,14 +54,14 @@ H₂+ O₂ = H₂O
 
 # How it works
 
+> *Note: Matrix related content is based on **[fmat](https://github.com/walkGuy/fmat)***
+
 1. **Parser** the chemical equation at first,
 generate a combination matrix. Then
 **Solve** its RREF and generate nullspace.
 	> *You can use `bct.ballog = True` to visualize the process*
 2. If nullspace got more than one base,
 use **ILP** to generate the simplest solution.
-
-> *Note: Matrix related content is based on **[fmat](https://github.com/walkGuy/fmat)***
 
 # Futures
 
