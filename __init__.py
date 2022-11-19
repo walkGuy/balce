@@ -31,7 +31,13 @@ Example:
 	* memorization : str, 记忆化所用的文件，默认不记忆化
 '''
 
+
 from .core import *
 from .core import __all__ as _c_all
 
+__version__ = '1.2.0'
+
 __all__ = _c_all.copy()
+__all__.extend((
+	'__version__',
+))

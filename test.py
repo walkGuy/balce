@@ -46,7 +46,7 @@ def main(print=gt.putout) :
 			+ 10975996000 Au0.987SC6H11O5 + 11137330030 HClO4 + 16286436267 H2S''',
 		'KClO3+ 6HCl → KCl+ 3Cl2↑+ 3H2O',
 		'AlCl3+3NaOH=Al (OH)3↓+3NaCl',
-	),  '/storage/emulated/0/.ChemicalEquationSolutions.dat'
+	),  None#'/storage/emulated/0/.ChemicalEquationSolutions.dat'
 	
 	(print)(
 		*cesTest,
