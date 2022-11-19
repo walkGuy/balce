@@ -56,7 +56,7 @@ from re import (
 
 _CHEMICAL_EQUATION_SPLIT = reCOMPILE(
 	# To check `=`,`==`,`====` and `=???=` or `→` even `→???→` which `⇋⇌↔⇄⇆⇔`, etc.
-	r'({0}{{2,}}|{0}.+?{0}|{0}+)'.format('[=←→⟶⇋⇌↔⇄⇆⇔≜]')
+	r'({0}{{2,}}|{0}.+?{0}|{0}+)'.format('[=<>←→⟶⇋⇌↔⇄⇆⇔≜]')
 )
 
 __CM_FORMAT_WS_REGEX_STRING = \
